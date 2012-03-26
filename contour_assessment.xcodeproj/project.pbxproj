@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEE488B515202128000FC1CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEE488B415202128000FC1CA /* main.cpp */; };
+		BEE488B715202128000FC1CA /* contour_assessment.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE488B615202128000FC1CA /* contour_assessment.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEE488AE15202128000FC1CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BEE488B715202128000FC1CA /* contour_assessment.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BEE488B015202128000FC1CA /* contour_assessment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = contour_assessment; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE488B415202128000FC1CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BEE488B615202128000FC1CA /* contour_assessment.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = contour_assessment.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE488AD15202128000FC1CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE488A515202127000FC1CA = {
+			isa = PBXGroup;
+			children = (
+				BEE488B315202128000FC1CA /* contour_assessment */,
+				BEE488B115202128000FC1CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE488B115202128000FC1CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE488B015202128000FC1CA /* contour_assessment */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE488B315202128000FC1CA /* contour_assessment */ = {
+			isa = PBXGroup;
+			children = (
+				BEE488B415202128000FC1CA /* main.cpp */,
+				BEE488B615202128000FC1CA /* contour_assessment.1 */,
+			);
+			path = contour_assessment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE488AF15202128000FC1CA /* contour_assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE488BA15202128000FC1CA /* Build configuration list for PBXNativeTarget "contour_assessment" */;
+			buildPhases = (
+				BEE488AC15202128000FC1CA /* Sources */,
+				BEE488AD15202128000FC1CA /* Frameworks */,
+				BEE488AE15202128000FC1CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = contour_assessment;
+			productName = contour_assessment;
+			productReference = BEE488B015202128000FC1CA /* contour_assessment */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE488A715202127000FC1CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "The Australian National University";
+			};
+			buildConfigurationList = BEE488AA15202127000FC1CA /* Build configuration list for PBXProject "contour_assessment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEE488A515202127000FC1CA;
+			productRefGroup = BEE488B115202128000FC1CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE488AF15202128000FC1CA /* contour_assessment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE488AC15202128000FC1CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE488B515202128000FC1CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEE488B815202128000FC1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEE488B915202128000FC1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEE488BB15202128000FC1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEE488BC15202128000FC1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE488AA15202127000FC1CA /* Build configuration list for PBXProject "contour_assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE488B815202128000FC1CA /* Debug */,
+				BEE488B915202128000FC1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE488BA15202128000FC1CA /* Build configuration list for PBXNativeTarget "contour_assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE488BB15202128000FC1CA /* Debug */,
+				BEE488BC15202128000FC1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE488A715202127000FC1CA /* Project object */;
+}
