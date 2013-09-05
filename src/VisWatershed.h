@@ -6,9 +6,6 @@
 //  Copyright (c) 2012 The Australian National University. All rights reserved.
 //
 
-#ifndef ImpWshed_watertest_h
-#define ImpWshed_watertest_h
-
 #include <iostream>
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
@@ -29,10 +26,14 @@ typedef struct CvWSQueue
 CvWSQueue;
 
 static CvWSNode* icvAllocWSNodes( CvMemStorage* storage );
-
+ 
 void VisWatershed( const CvArr* srcarr,
                          CvArr* dstarr,
-                   const int sz,
-                   const double C );
+                   int sz,
+                   double C );
 
-#endif
+void cv::viswatershed( InputArray _src, 
+		       InputOutputArray markers, 
+		       int sz, 
+		       double C)
+

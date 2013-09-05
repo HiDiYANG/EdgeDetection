@@ -26,8 +26,8 @@ icvAllocWSNodes( CvMemStorage* storage )
 
 void VisWatershed( const CvArr* srcarr,
                          CvArr* dstarr,
-                   const int sz,
-                   const double C)
+                   int sz,
+                   double C)
 {
 	const int IN_QUEUE = -2;
 	const int WSHED = -1;
@@ -315,4 +315,13 @@ assert( 0 <= diff && diff <= 255 ); \
     }
     
     cvReleaseMemStorage( &storage );
+}
+
+namespace cv{
+  void viswatershed( InputArray _src, InputOutputArray markers, int sz, double c)
+  {
+    Mat src = _src.getMat();
+    CvMat c_src = _src.getMat(), c_markers = markers.getMat();
+    VisWatershed( &c_src, &c_markers, sz, c);
+  }
 }
