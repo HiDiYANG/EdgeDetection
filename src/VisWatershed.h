@@ -7,8 +7,8 @@
 //
 
 #include <iostream>
-#include <opencv/cv.h>
-#include <opencv/highgui.h>
+#include <cv.h>
+#include <highgui.h>
 
 typedef struct CvWSNode
 {
@@ -32,8 +32,9 @@ void VisWatershed( const CvArr* srcarr,
                    int sz,
                    double C );
 
-void cv::viswatershed( InputArray _src, 
-		       InputOutputArray markers, 
-		       int sz, 
-		       double C)
-
+namespace cv{
+void viswatershed( InputArray _src, 
+		   InputOutputArray markers, 
+		   int sz, 
+		   double C);
+}
